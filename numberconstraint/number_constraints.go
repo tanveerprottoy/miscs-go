@@ -1,8 +1,6 @@
 package numberconstraints
 
-import (
-	"golang.org/x/exp/constraints"
-)
+import "golang.org/x/exp/constraints"
 
 func Add[T constraints.Ordered](x, y T) T {
 	return x + y
